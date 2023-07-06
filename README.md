@@ -5,10 +5,15 @@
 ## Flow Diagram
 
 ```mermaid
-stateDiagram-v2 LR
+stateDiagram-v2
     [*] --> Type : Patent-document
-    Type --> [*] : non-relevant
+    Type --> [*] : non_relevant
     Type --> Extraction : relevant
+    state Type {
+        keywords --> classification
+        classification --> non_relevant
+        classification --> relevant
+    }
 
     Extraction --> chunking
     state Extraction {
