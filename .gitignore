@@ -1,3 +1,4 @@
 basf
 .env
-
+.chroma
+data/*
