@@ -150,10 +150,10 @@ class ParseFile():
             "publication_date": uspto_patent['publication_date'],
             "application_type": uspto_patent['application_type'],
             # "authors": ','.join(uspto_patent['authors']),
-            # "sections": ','.join(uspto_patent['sections']),
-            # "section_classes": ','.join(uspto_patent['section_classes']),
-            # "section_class_subclasses": ','.join(uspto_patent['section_class_subclasses']),
-            # "section_class_subclass_groups": ','.join(uspto_patent['section_class_subclass_groups']),
+            "sections": ','.join(uspto_patent['sections']),
+            "section_classes": ','.join(uspto_patent['section_classes']),
+            "section_class_subclasses": ','.join(uspto_patent['section_class_subclasses']),
+            "section_class_subclass_groups": ','.join(uspto_patent['section_class_subclass_groups']),
             "abstract": '\n'.join(uspto_patent['abstract']),
             "descriptions": '\n'.join(uspto_patent['descriptions']),
             "claims": '\n'.join(uspto_patent['claims'])
@@ -221,7 +221,7 @@ class ParseFile():
         
         df = pd.DataFrame(patentEntries)        
         df = df.replace(',',' ')
-        df.to_csv(f'{filename.replace(".xml",".csv")}',index=False,sep=',')
+        df.to_csv(f'{filename.replace(".xml",".csv")}',index=False)
 
         return filename.replace(".xml",".csv")
 

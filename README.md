@@ -25,7 +25,7 @@ stateDiagram-v2
 
     chunking --> LLM
     state LLM {
-        one_shot_inference --> OpenAI
+        few_shots_inference --> OpenAI
     }
 
     LLM --> measurements
