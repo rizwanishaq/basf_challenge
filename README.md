@@ -38,13 +38,17 @@ stateDiagram-v2
 
 
 
-
 ```
+
+## Validation
+
+- [] using the chroma db vector database, and compare the results with each vector so that we can have close score, i.e. that it is in the text.
 
 ### TodoList
 
-- [] Understand the concept
-- [x] One-Shot inference
+- [x] Understand the concept
+- [x] Few-Shot inference
+- [] Validation
 
 ## Acknowledgements
 
