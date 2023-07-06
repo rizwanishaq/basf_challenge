@@ -3,7 +3,6 @@ import sys
 import csv
 import json
 import asyncio
-from pathlib import Path
 from dotenv import load_dotenv
 from utils.utils import MeasurementDetails
 from langchain.llms import AzureOpenAI
@@ -15,14 +14,6 @@ from langchain.callbacks import get_openai_callback
 
 load_dotenv()
 
-os.environ["OPENAI_API_TYPE"] =os.environ['OPENAI_API_TYPE']
-os.environ["OPENAI_API_VERSION"] = "2023-03-15-preview"
-os.environ["OPENAI_API_BASE"] = os.environ["OPENAI_API_BASE"]
-os.environ["OPENAI_API_KEY"] = os.environ['OPENAI_API_KEY']
-
-
-
-# https://colab.research.google.com/drive/1Hj55qsYgHX9mMC_81BwpjORIEjajxOPp?usp=sharing#scrollTo=Kk3c8z0PBgeI
 
 
 # parsed_csv_file = 'data/ipg230103.csv'
@@ -117,7 +108,7 @@ async def main():
     with get_openai_callback() as cb:  
         document_extraction_results =  await extract_from_documents(
             chain,
-            docs_chunks[15:20], 
+            docs_chunks[25:30], 
             max_concurrency=5, 
             use_uid=False, 
             return_exceptions=True
