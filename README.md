@@ -5,16 +5,33 @@
 ## Flow Diagram
 
 ```mermaid
-stateDiagram-v2
+stateDiagram-v2 LR
     [*] --> Type : Patent-document
     Type --> [*] : non-relevant
     Type --> Extraction : relevant
+
     Extraction --> chunking
+    state Extraction {
+        document --> abstract
+        document --> description
+        abstract --> concatenate
+        description --> concatenate
+    }
+
     chunking --> LLM
+    state LLM {
+        one_shot_inference --> OpenAI
+    }
+
     LLM --> measurements
-    measurements --> property
-    property --> values
-    property --> units
+    state measurements {
+        property --> values
+        property --> units
+    }
+    measurements --> values
+    measurements --> units
+
+
 
 
 ```
