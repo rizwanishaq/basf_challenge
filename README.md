@@ -4,7 +4,7 @@ The purpose of this challenge is to address the issue of effectively extracting 
 
 ## Instructions for use
 
-### [1]. clone the repo and install python dependencies
+### clone the repo and install python dependencies
 
 ```bash
 git clone https://github.com/rizwanishaq/basf_challenge.git
@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 
 ```
 
-### [2] Acquiring the data from USTOP.
+### Acquiring the data from USTOP.
 
 ```bash
 mkdir data
@@ -28,7 +28,7 @@ wget https://bulkdata.uspto.gov/data/patent/grant/redbook/fulltext/2023/ipg23010
 unzip ipg230103.zip
 ```
 
-### [3] Parse the .xml file to json file
+### Parse the .xml file to json file
 
 ```bash
 python3 parse_data.py
@@ -36,7 +36,7 @@ python3 parse_data.py
 
 It will create the ipg230103.json in data folder which we can use afterwards for our system testing purposes.
 
-### [4] environment variables setting for Azure openai setup
+### environment variables setting for Azure openai setup
 
 Before testing the patent-analysis system, we need to set the environment variable first, create a .env
 
@@ -53,7 +53,7 @@ OPENAI_API_BASE="put the end point url here"
 OPENAI_API_VERSION = 2023-03-15-preview
 ```
 
-### [5] Testing the system with given patent url given in the challenge file
+### Testing the system with given patent url given in the challenge file
 
 ```bash
 python3 app.py --patent-url "https://patents.google.com/patent/US8022010B2/en"
@@ -75,7 +75,7 @@ sentence: The material in which a TiN film having an average film thickness of 3
 - [x] Few-Shot inference
 - [x] Prototype
 - [x] Flow Diagram
-- [] Measurement database, MongoDB
+- [ ] Measurement database, MongoDB
 
 ## Flow Diagram
 
