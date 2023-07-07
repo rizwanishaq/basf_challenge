@@ -3,20 +3,26 @@ from pydantic import BaseModel, Field
 class MeasurementDetails(BaseModel):
     name: str = Field(
         ...,
-        description="Name of the component for measurement.",
+        description="Name of the product being measured.",
     )
     property: str = Field(
         ...,
-        description="Measurement property for the component.",
+        description="Property being measured for the product.",
     )
     value: str = Field(
         ...,
-        description="Value of the measurement property of the component",
+        description="Value of the measured property for the product.",
     )
     unit: str = Field(
         ...,
-        description="measurement unit for the property of the component",
+        description="Unit of measurement for the property of the product.",
     )
+    sentence: str = Field(
+        ...,
+        description="The exact sentence from which the measurement was extracted.",
+    )
+
+
     
 
 

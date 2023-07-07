@@ -1,11 +1,11 @@
 import os
 import html
 import datetime
-import pandas as pd
 from datetime import datetime
 from bs4 import BeautifulSoup
 from glob import glob
 from tqdm import tqdm
+import json
 
 
 
@@ -149,7 +149,7 @@ class ParseFile():
             "patent_number": uspto_patent['publication_number'],
             "publication_date": uspto_patent['publication_date'],
             "application_type": uspto_patent['application_type'],
-            # "authors": ','.join(uspto_patent['authors']),
+            "authors": ','.join(uspto_patent['authors']),
             "sections": ','.join(uspto_patent['sections']),
             "section_classes": ','.join(uspto_patent['section_classes']),
             "section_class_subclasses": ','.join(uspto_patent['section_class_subclasses']),
@@ -219,11 +219,12 @@ class ParseFile():
 
         
         
-        df = pd.DataFrame(patentEntries)        
-        df = df.replace(',',' ')
-        df.to_csv(f'{filename.replace(".xml",".csv")}',index=False)
 
-        return filename.replace(".xml",".csv")
+        with open(f'{filename.replace(".xml",".json")}', 'w') as f:
+            json.dump(patentEntries, f)
+
+
+        return filename.replace(".xml",".json")
 
 
 
