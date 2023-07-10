@@ -383,6 +383,14 @@ Here are a few more examples of patent URLs and their expected output:
 
 - Patent Title: Process for the production of titanium dioxide, and titanium dioxide obtained thereby
 
+To validate the one of the patent from the .xml file, we just run
+
+```bash
+python3 validate.py
+```
+
+it will generate the following output:
+
 ---
 
     - Product: TITANIUM DIOXIDE
