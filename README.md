@@ -381,7 +381,7 @@ Here are a few more examples of patent URLs and their expected output:
 
 ---
 
-- Patent Title: Process for the production of titanium dioxide, and titanium dioxide obtained thereby
+- Patent Title: PHighly reactive, dust-free and free-flowing lithium sulphide and method for the production thereof
 
 To validate the one of the patent from the .xml file, we just run
 
@@ -393,93 +393,59 @@ it will generate the following output:
 
 ---
 
-    - Product: TITANIUM DIOXIDE
-    - Property: proportion of primary crystallites
-    - Value: at most 100
-    - unit: nm
-    - sentence: An aspect of the present invention is to overcome the disadvantages of the prior art and in particular also to provide a process for the production of titanium dioxide using the sulfate process which can in a simple manner produce a titanium dioxide with a low proportion of primary crystallites with a dimension of at most 100 nm.
+    - Product: LITHIUM SULFIDE POWDER
+    - Property: particle size
+    - Value: between 250 and 1,500
+    - unit: μm
+    - sentence: The invention relates to a highly reactive, high-purity, free-flowing and dust-free lithium sulfide powder having an average particle size between 250 and 1,500 μm and BET surface areas between 1 and 100 m2/g.
 
 ---
 
-    - Product: TITANIUM DIOXIDE SUSPENSION
-    - Property: general formula
-    - Value: TiO(2-x)(OH)2x
+    - Product: LITHIUM SULFIDE POWDER
+    - Property: surface area
+    - Value: between 1 and 100
+    - unit: m2/g
+    - sentence: The invention relates to a highly reactive, high-purity, free-flowing and dust-free lithium sulfide powder having an average particle size between 250 and 1,500 μm and BET surface areas between 1 and 100 m2/g.
+
+---
+
+    - Product: LITHIUM HYDROXIDE
+    - Property: residual water content
+    - Value: less than 5
+    - unit: wt. %
+    - sentence: Surprisingly, however, the morphology of the produced anhydrous lithium hydroxide (residual water content of less than 5 wt. %) differs significantly depending on the selected drying conditions.
+
+---
+
+    - Product: LITHIUM HYDROXIDE
+    - Property: BET surface area
+    - Value: smaller for low drying temperatures than for temperatures above 200
+    - unit: °C.
+    - sentence: This property correlates with the BET surface area of the porous lithium hydroxide particles, which is smaller for low drying temperatures than for temperatures above 200° C. (Examples 1, 2, 5 and 6).
+
+---
+
+    - Product: LI6PS5BR
+    - Property: composition
+    - Value: lithium sulfide
     - unit:
-    - sentence: This “titanium dioxide suspension” formed by this suspension of titanium oxide hydrate and/or hydrated titanium oxide particles with general formula TiO(2-x)(OH)2x in which (0≤x≤1), or mixtures thereof, can, for example, have the following properties:
+    - sentence: To study reactivity of the produced lithium sulfide powders, a process for producing the sulfidic solid electrolyte of the composition Li6PS5Br was found in the literature [Solid State Ionics, 2014, 262, 183-187].
 
 ---
 
-    - Product: TIO2
-    - Property: particle sizes in the nanometer range
-    - Value: smaller quantities
-    - unit: None
-    - sentence: Because of its smaller quantities of particle sizes in the nanometer range, the TiO2 material in accordance with the present invention is suitable for those applications in which such a proportion of such particle sizes might be considered to be unsafe, for example, in the field of foodstuffs, pharmaceuticals, cosmetics and care products for the human body, as well as in polymers which are used as packaging for foodstuffs or as fibers.
+    - Product:
+    - Property: reaction temperature of step 2
+    - Value: between 20 and 450
+    - unit: °C.
+    - sentence: The process according to claim 2, characterized in that the reaction temperature of step 2 is between 20° C. and 450° C.
 
 ---
 
-    - Product: TIO2
-    - Property: mean particle size
-    - Value: None
-    - unit: None
-    - sentence: Determination of Mean Particle Size
-
----
-
-    - Product: TITANIUM OXIDE
-    - Property: mean particle size
-    - Value: d50 given
-    - unit:
-    - sentence: In order to determine the mean particle size of titanium oxide with general formula TiO(2-x)(OH)2x in which 02 in 60 ml of solution.
-
----
-
-    - Product: ANATASE
-    - Property: crystallite size
-    - Value: Scherrer method
-    - unit:
-    - sentence: The crystallite size was determined using the Scherrer method from the half-height widths of the anatase reflection at a 2 theta of 25.3° using the following formula:
-
----
-
-    - Product: TiO2
-    - Property: Crystal-lite Size
-    - Value: 100
-    - unit: nm
-    - sentence: Crystal-
-
-        lite Size X50
-        Fraction
-
----
-
-    - Product: TiO2
-    - Property: CIE b*
-    - Value: >0.5
-    - unit:
-    - sentence: CIE b*
-
-        > 0.5
-        > yellowish white
-
----
-
-    - Product: TiO2
-    - Property: CIE b*
-    - Value: 0 to 0.5
-    - unit:
-    - sentence: CIE b*
-
-        0 to 0.5
-        neutral white
-
----
-
-    - Product: TiO2
-    - Property: CIE b*
-    - Value: <0
-    - unit:
-    - sentence: CIE b*  <0
-    bluish white
+    - Product:
+    - Property: reaction temperature of step 2
+    - Value: between 200 and 400
+    - unit: °C.
+    - sentence: The process according to claim 2, characterized in that the reaction temperature of step 2 is between 200° C. and 400° C.
 
 ---
 
