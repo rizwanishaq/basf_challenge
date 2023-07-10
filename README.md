@@ -131,7 +131,7 @@ stateDiagram-v2
 - [x] Prototype
 - [x] Flow Diagram
 - [ ] Measurement database, MongoDB
-- [ ] Slides
+- [x] Slides
 - [ ] suggestions
 - [ ] Optimization of validation
 - [ ] Annotations generation
@@ -166,18 +166,224 @@ Here are a few more examples of patent URLs and their expected output:
 
 - Patent URL: https://patents.google.com/patent/US8501236B2/en
 
-  - Product: ceria particles
-  - Property: crystallite size
-  - Value: between 10 and 20
-  - Unit: nm
-  - Sentence: In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.
+---
+
+```diff
++ Product: ceria particles in red
++ Property: crystallite size in green
++ Value: between 10 and 20
++ Unit: nm
++ Sentence: In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.
+```
+
+---
+
+```diff
++ Product: ALKAINE EARTH MATERIAL
++ Property: crystallite size
++ Value: between 10 and 20
++ unit: nm
++ sentence: In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.
+```
+
+---
+
+```diff
++ Product: ALKAINE EARTH OXIDE
++ Property: crystallite size
++ Value: between 20-40
++ unit: nm
++ sentence: In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.
+```
+
+---
+
+```diff
+- Product: BaCO3/CeO2 composite
+- Property: SEM image
+- Value: null
+- unit: null
+- sentence: FIG. 6 is a SEM image of the spray dried and calcined BaCO3/CeO2 composite material.
+```
+
+---
+
+```diff
+- Product: BaCO3
+- Property: thermal stress reduction
+- Value: reduced
+- unit:
+- sentence: According to one or more embodiments of the invention, Ba sintering and Ba composite compound formation is reduced under the conditions of thermal stress in an exhaust gas of a lean burn engine.
+```
+
+---
+
+```diff
+- Product: NOX STORAGE MATERIAL
+- Property: demonstrated NOx storage capacity
+- Value: improved
+- unit:
+- sentence: The NOx storage material according to embodiments of the present invention demonstrates improved NOx storage capacity after thermal aging when used in a catalytic trap.
+```
+
+---
+
+```diff
++ Product: BACO3/Ceo2 PARTICLES
++ Property: particle size
++ Value: 3-30
++ unit: micron
++ sentence: The coating on the honeycomb catalyst comprises about 3-30 micron BaCO3/CeO2 particles and about 1-20 micron alumina particles.
+```
+
+---
+
+```diff
++ Product: ALUMINA PARTICLES
++ Property: particle size
++ Value: 1-20
++ unit: micron
++ sentence: The coating on the honeycomb catalyst comprises about 3-30 micron BaCO3/CeO2 particles and about 1-20 micron alumina particles.
+```
+
+---
+
+```diff
+- Product: NOX
+- Property: NOx storage mass(g)
+- Value: NOx *{dot over (V)}/V ideal *M S*1/(3.6*106)
+- unit: g
+- sentence: NOx storage mass in g is calculated via equation (2):
+```
+
+---
+
+```diff
++ Product: NOX
++ Property: NOx concentration
++ Value: NOx
++ unit: ppm
++ sentence: For the time period of the 10 lean/rich cycles the NOx efficiency (U) is calculated from the NOx inlet and NOx outlet concentrations via equation (1):
+```
+
+---
+
+```diff
++ Product: REFRACTORY OXIDE
++ Property: surface area
++ Value: between 5 and 350
++ unit: m2/g
++ sentence: The method of claim 13, wherein the refractory oxide has a surface area of between about 5 and about 350 m2/g.
+```
+
+---
 
 - Patent URL: https://patents.google.com/patent/EP2778146A1/en
-  - Product: CUBIC BORON NITRIDE
-  - Property: average grain size
-  - Value: 0.5 to 5
-  - Unit: µm
-  - Sentence: Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm.
+
+---
+
+```diff
++ Product: CUBIC BORON NITRIDE
++ Property: average grain size
++ Value: 0.5 to 5
++ unit: µm
++ sentence: An average grain size of the cubic boron nitride of the present invention is not particularly limited, but if the average grain size of the cubic boron nitride is less than 0.5 µm, an oxygen amount adsorbed on the surface of the cubic boron nitride is increased to inhibit the sintering reaction, whereby sinterability tends to be lowered, while if the average grain size becomes large exceeding 5 µm, the binder phase tends to be agglomerated, so that the thickness of the binder phase which is brittle as compared to the cubic boron nitride becomes large and fracture resistance tends to be lowered. Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm. Among these, the average grain size of the cubic boron nitride is further preferably 1 to 3 µm.
+```
+
+---
+
+```diff
++ Product: CUBIC BORON NITRIDE SINTERED BODY
++ Property: inevitable impurities
++ Value: 5% by mass or less
++ unit:
++ sentence: The total amount of the inevitable impurities is generally 5% by mass or less based on the total mass of the cubic boron nitride sintered body
+```
+
+---
+
+```diff
++ Product: CUBIC BORON NITRIDE SINTERED BODY
++ Property: tungsten element
++ Value: 5% by mass or less
++ unit:
++ sentence: Therefore, the amount of the tungsten element contained in the cubic boron nitride sintered body of the present invention is preferably 5% by mass or less based on the total mass of the cubic boron nitride sintered body since cutting properties are improved, and among these, the amount of the tungsten element is further preferably 3% by mass or less.
+```
+
+---
+
+```diff
++ Product: CUBIC BORON NITRIDE
++ Property: average grain size
++ Value: 0.5 to 5
++ unit: µm
++ sentence: Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm.
+```
+
+---
+
+```diff
++ Product: CNGA120408
++ Property: insert shape
++ Value: None
++ sentence: Insert shape: CNGA120408,
+```
+
+---
+
+```diff
+- Product: DCLNR2525M12
+- Property: holder
+- Value: None
+- unit: None
+- sentence: Holder: DCLNR2525M12,
+```
+
+---
+
+```diff
+- Product: None
+- Property: cutting speed
+- Value: 300
+- unit: m/min
+- sentence: Cutting speed: 300 m/min,
+```
+
+---
+
+```diff
+- Product: None
+- Property: amount of depth of cut
+- Value: 0.2
+- unit: mm
+- sentence: Amount of depth of cut: 0.2 mm,
+```
+
+---
+
+```diff
+- Product: None
+- Property: feed rate
+- Value: 0.1
+- unit: mm/rev
+- sentence: Feed rate: 0.1 mm/rev,
+```
+
+---
+
+```diff
++ Product: CUBIC BORON NITRIDE
++ Property: average grain size
++ Value: 0.5 to 5
++ unit: µm
++ sentence: Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm.
+```
+
+---
+
+## Troubleshooting and FAQs
+
+I'm encountering a request timeout problem with Azure OpenAI when using the extracted data in JSON format from the .xml files. As a solution, I tested the system with different patent URLs.
 
 ## Contributing
 
@@ -191,7 +397,3 @@ For further information or inquiries, please contact [Rizwan Ishaq](mailto:rizwa
 
 - [Matthew Shaxted](https://github.com/mattshax/ipagent) (Parser)
 - [OpenAI](https://openai.com/) (provided helpful advise and chatgpt4 access)
-
-```
-
-```
