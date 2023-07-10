@@ -103,7 +103,7 @@ async def main(patent_url):
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument(
-        "--patent-url", default='https://patents.google.com/patent/US8022010B2/en', help="patent url which we want to analysis")
+        "--patent_url", default='https://patents.google.com/patent/US8022010B2/en', help="patent url which we want to analysis")
     
     args = parser.parse_args()
     asyncio.run(main(args.patent_url))

@@ -76,6 +76,11 @@ sentence: The material in which a TiN film having an average film thickness of 3
 - [x] Prototype
 - [x] Flow Diagram
 - [ ] Measurement database, MongoDB
+- [ ] Slides
+- [ ] suggestions
+- [ ] Optimization of validation
+- [ ] Annotations generation
+- [ ] Evaluation of the System
 
 ## Flow Diagram
 
