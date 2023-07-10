@@ -36,13 +36,11 @@ async def main(patent_url):
     
     docs = loader.load()
 
-
     llm = AzureOpenAI(
         deployment_name="gpt-35-turbo",
         model_name="gpt-35-turbo",
         # temperature=0.0
     )
-
 
     # #Splitting the documents into chunks
     text_splitter = RecursiveCharacterTextSplitter(
@@ -51,11 +49,7 @@ async def main(patent_url):
         length_function = len,
     )
 
-
     docs_chunks = text_splitter.split_documents(docs)
-
-
-
 
     schema, validator = get_schema()
 
@@ -66,9 +60,6 @@ async def main(patent_url):
         validator=validator,
         input_formatter="triple_quotes",
     )
-
-
-
     
     document_extraction_results =  await extract_from_documents(
         chain,
@@ -78,10 +69,7 @@ async def main(patent_url):
         return_exceptions=True
     )
     
-    
     extract_json_info(document_extraction_results)
-
-
 
 
 if __name__ == "__main__":

@@ -24,9 +24,6 @@ class MeasurementDetails(BaseModel):
     )
 
 
-    
-
-
 
 def get_schema():
     schema, validator = from_pydantic(

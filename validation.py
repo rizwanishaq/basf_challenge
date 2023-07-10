@@ -70,12 +70,15 @@ async def main(json_file_path):
     
     for _record in data:
         if _record['publication_title'] == 'Process for the production of titanium dioxide, and titanium dioxide obtained thereby':    
-            doc = text_splitter.create_documents(f"{_record['descriptions']}")   
+            
+            doc = text_splitter.create_documents([f"{_record['abstract']} {_record['descriptions']} {_record['claims']}"])   
+            
             docs_chunks = text_splitter.split_documents(doc)
+            print(len(docs_chunks))
             document_extraction_results =  await extract_from_documents(
                 chain,
                 docs_chunks, 
-                max_concurrency=5, 
+                max_concurrency=10, 
                 use_uid=False, 
                 return_exceptions=True
             )
