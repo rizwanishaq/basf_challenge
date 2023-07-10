@@ -381,6 +381,100 @@ Here are a few more examples of patent URLs and their expected output:
 
 ---
 
+- Patent Title: Process for the production of titanium dioxide, and titanium dioxide obtained thereby
+
+---
+
+    - Product: TITANIUM DIOXIDE
+    - Property: proportion of primary crystallites
+    - Value: at most 100
+    - unit: nm
+    - sentence: An aspect of the present invention is to overcome the disadvantages of the prior art and in particular also to provide a process for the production of titanium dioxide using the sulfate process which can in a simple manner produce a titanium dioxide with a low proportion of primary crystallites with a dimension of at most 100 nm.
+
+---
+
+    - Product: TITANIUM DIOXIDE SUSPENSION
+    - Property: general formula
+    - Value: TiO(2-x)(OH)2x
+    - unit:
+    - sentence: This “titanium dioxide suspension” formed by this suspension of titanium oxide hydrate and/or hydrated titanium oxide particles with general formula TiO(2-x)(OH)2x in which (0≤x≤1), or mixtures thereof, can, for example, have the following properties:
+
+---
+
+    - Product: TIO2
+    - Property: particle sizes in the nanometer range
+    - Value: smaller quantities
+    - unit: None
+    - sentence: Because of its smaller quantities of particle sizes in the nanometer range, the TiO2 material in accordance with the present invention is suitable for those applications in which such a proportion of such particle sizes might be considered to be unsafe, for example, in the field of foodstuffs, pharmaceuticals, cosmetics and care products for the human body, as well as in polymers which are used as packaging for foodstuffs or as fibers.
+
+---
+
+    - Product: TIO2
+    - Property: mean particle size
+    - Value: None
+    - unit: None
+    - sentence: Determination of Mean Particle Size
+
+---
+
+    - Product: TITANIUM OXIDE
+    - Property: mean particle size
+    - Value: d50 given
+    - unit:
+    - sentence: In order to determine the mean particle size of titanium oxide with general formula TiO(2-x)(OH)2x in which 02 in 60 ml of solution.
+
+---
+
+    - Product: ANATASE
+    - Property: crystallite size
+    - Value: Scherrer method
+    - unit:
+    - sentence: The crystallite size was determined using the Scherrer method from the half-height widths of the anatase reflection at a 2 theta of 25.3° using the following formula:
+
+---
+
+    - Product: TiO2
+    - Property: Crystal-lite Size
+    - Value: 100
+    - unit: nm
+    - sentence: Crystal-
+
+        lite Size X50
+        Fraction
+
+---
+
+    - Product: TiO2
+    - Property: CIE b*
+    - Value: >0.5
+    - unit:
+    - sentence: CIE b*
+
+        > 0.5
+        > yellowish white
+
+---
+
+    - Product: TiO2
+    - Property: CIE b*
+    - Value: 0 to 0.5
+    - unit:
+    - sentence: CIE b*
+
+        0 to 0.5
+        neutral white
+
+---
+
+    - Product: TiO2
+    - Property: CIE b*
+    - Value: <0
+    - unit:
+    - sentence: CIE b*  <0
+    bluish white
+
+---
+
 ## Troubleshooting and FAQs
 
 I'm encountering a request timeout problem with Azure OpenAI when using the extracted data in JSON format from the .xml files. As a solution, I tested the system with different patent URLs.
@@ -397,3 +491,7 @@ For further information or inquiries, please contact [Rizwan Ishaq](mailto:rizwa
 
 - [Matthew Shaxted](https://github.com/mattshax/ipagent) (Parser)
 - [OpenAI](https://openai.com/) (provided helpful advise and chatgpt4 access)
+
+```
+
+```

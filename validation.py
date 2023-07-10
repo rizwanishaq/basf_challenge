@@ -75,6 +75,7 @@ async def main(json_file_path):
             
             docs_chunks = text_splitter.split_documents(doc)
             print(len(docs_chunks))
+            print(docs_chunks[0])
             document_extraction_results =  await extract_from_documents(
                 chain,
                 docs_chunks, 
