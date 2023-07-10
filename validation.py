@@ -1,10 +1,10 @@
 import json
 import asyncio
 from dotenv import load_dotenv
-from utils.utils import MeasurementDetails
+from utils.utils import get_schema
 from langchain.llms import AzureOpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from kor import extract_from_documents, from_pydantic, create_extraction_chain
+from kor import extract_from_documents, create_extraction_chain
 from langchain.document_loaders import WebBaseLoader
 from argparse import ArgumentParser
 
@@ -49,28 +49,9 @@ async def main(json_file_path):
     )
 
 
-    
 
 
-
-
-    schema, validator = from_pydantic(
-        MeasurementDetails,
-        description="Extract component information from documents, including the product's name, property, value, and measurement unit.",
-        examples=[
-            (
-                "the resulting BaCO3 had a crystallite size of between about 20 and 40 nm.",
-                {
-                    "name": "BACO3", 
-                    "property": "crystallite size", 
-                    "value": "between 20 and 40", 
-                    "unit": "nm", 
-                    "sentence":"the resulting BaCO3 had a crystallite size of between about 20 and 40 nm."
-                },
-            )
-        ],
-        many=True,
-    )
+    schema, validator = get_schema()
 
     chain = create_extraction_chain(
         llm,
@@ -98,10 +79,6 @@ async def main(json_file_path):
                 use_uid=False, 
                 return_exceptions=True
             )
-
-                
-                    
-            
             extract_json_info(document_extraction_results)
         else:
             continue

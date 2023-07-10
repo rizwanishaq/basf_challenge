@@ -2,7 +2,7 @@ import json
 import asyncio
 from pathlib import Path
 from dotenv import load_dotenv
-from utils.utils import MeasurementDetails
+from utils.utils import get_schema
 from langchain.llms import AzureOpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders.csv_loader import CSVLoader
@@ -52,23 +52,7 @@ async def main():
     
 
 
-    schema, validator = from_pydantic(
-        MeasurementDetails,
-        description="Extract component information from documents, including the component's name, property, value, and measurement unit.",
-        examples=[
-            (
-                "the resulting BaCO3 had a crystallite size of between about 20 and 40 nm.",
-                {
-                    "name": "BACO3", 
-                    "property": "crystallite size", 
-                    "value": "between 20 and 40", 
-                    "unit": "nm", 
-                    "sentence":"the resulting BaCO3 had a crystallite size of between about 20 and 40 nm."
-                },
-            )
-        ],
-        many=True,
-    )
+    schema, validator = get_schema()
 
     chain = create_extraction_chain(
         llm,
