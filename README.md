@@ -451,7 +451,7 @@ it will generate the following output:
 
 ## Troubleshooting and FAQs
 
-I'm encountering a request timeout problem with Azure OpenAI when using the extracted data in JSON format from the .xml files. As a solution, I tested the system with different patent URLs.
+I have to devise the evaluation for this task, at moment I'm not sure, how can I do it automatically.
 
 ## Contributing
 
