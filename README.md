@@ -188,7 +188,7 @@ The patent analysis system follows the following flow:
   <tr style="color:green">
     <td >ALKAINE EARTH MATERIAL</td>
     <td>crystallite size</td>
-    <td>between 10 and 20</td>
+    <td>between 20-40</td>
     <td>nm</td>
     <td>In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.</td>
   </tr>
@@ -207,9 +207,9 @@ The patent analysis system follows the following flow:
     <td>sentence: FIG. 6 is a SEM image of the spray dried and calcined BaCO3/CeO2 composite material.</td>
   </tr>
   <tr style="color:red">
-    <td>BaCO3</td>
-    <td>thermal stress reduction</td>
-    <td>reduced</td>
+    <td>BaCO3 OR MIXTURES OF BACO3 AND MGCO3 SUPPORTED ON CEO2 PARTICLES</td>
+    <td>reduced Ba sintering and Ba composite compound formation under the conditions of thermal stress in an exhaust gas of a lean burn engine</td>
+    <td></td>
     <td></td>
     <td>According to one or more embodiments of the invention, Ba sintering and Ba composite compound formation is reduced under the conditions of thermal stress in an exhaust gas of a lean burn engine.</td>
   </tr>
@@ -221,11 +221,53 @@ The patent analysis system follows the following flow:
     <td>The NOx storage material according to embodiments of the present invention demonstrates improved NOx storage capacity after thermal aging when used in a catalytic trap.</td>
   </tr>
   <tr style="color:green">
-    <td>BACO3/Ceo2 PARTICLES</td>
-    <td>particle size</td>
-    <td>3-30</td>
-    <td>micron</td>
-    <td>The coating on the honeycomb catalyst comprises about 3-30 micron BaCO3/CeO2 particles and about 1-20 micron alumina particles.</td>
+    <td>BACO3</td>
+    <td>crystallite size</td>
+    <td>between 20 and 40</td>
+    <td>nm</td>
+    <td>the resulting BaCO3 had a crystallite size of between about 20 and 40 nm.</td>
+  </tr>
+  <tr style="color:green">
+    <td>CERIA</td>
+    <td>BET surface area</td>
+    <td>between 30 and 80</td>
+    <td>m2/g</td>
+    <td>The BET surface area of the particulate mixture is between about 30 and 80 m2/g.</td>
+  </tr>
+  <tr style="color:red">
+    <td>NOx</td>
+    <td>efficiency</td>
+    <td>U</td>
+    <td>None</td>
+    <td>For the time period of the 10 lean/rich cycles the NOx efficiency (U) is calculated from the NOx inlet and NOx outlet concentrations via equation (1):</td>
+  </tr>
+  <tr style="color:green">
+    <td>NOx storage mass</td>
+    <td>mass</td>
+    <td>NOx mass(g)</td>
+    <td>g</td>
+    <td>NOx storage mass in g is calculated via equation (2):</td>
+  </tr>
+  <tr style="color:green">
+    <td>BACO3</td>
+    <td>crystallite size</td>
+    <td>20-50</td>
+    <td>nm</td>
+    <td>Furthermore, a BaCO3 crystallite size of between about 20-50 nm, for example, 45 nm, and a CeO2 crystallite size of between about 25-30 nm in combination with a sufficient BET surface area after aging yielded the highest NOx storage at 400° C.</td>
+  </tr>
+  <tr style="color:green">
+    <td>CERIA</td>
+    <td>crystal size</td>
+    <td>10-20</td>
+    <td>nm</td>
+    <td>According to the data in Tables I and II, an as-prepared BET surface area between 40-60 m2/g and a ceria crystal size between about 10- and 20 nm and a BaCO3 crystallite size of between about 20- and 40 nm yielded the best performance after aging.</td>
+  </tr>
+  <tr style="color:green">
+    <td>REFRACTORY OXIDE</td>
+    <td>surface area</td>
+    <td>between 5 and 350</td>
+    <td>m2/g</td>
+    <td>The method of claim 13, wherein the refractory oxide has a surface area of between about 5 and about 350 m2/g.</td>
   </tr>
   <tr style="color:green">
     <td>ALUMINA PARTICLES</td>
