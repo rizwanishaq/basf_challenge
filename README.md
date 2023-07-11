@@ -164,7 +164,7 @@ The patent analysis system follows the following flow:
 
 - Patent URL: https://patents.google.com/patent/US8501236B2/en
 - Patent URL: https://patents.google.com/patent/EP2778146A1/en
-- Patent Title: PHighly reactive, dust-free and free-flowing lithium sulphide and method for the production thereof
+- Patent Title: Highly reactive, dust-free and free-flowing lithium sulphide and method for the production
 
 ```bash
   python3 validate.py
