@@ -170,36 +170,197 @@ The patent analysis system follows the following flow:
   python3 validate.py
 ```
 
-| Product                           | Property                          | Value                                                               | Unit   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Sentence |
-| --------------------------------- | :-------------------------------- | ------------------------------------------------------------------- | ------ | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ceria particles in red            | crystallite size in green         | between 10 and 20                                                   | nm     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm. |
-| ALKAINE EARTH MATERIAL            | crystallite size                  | between 10 and 20                                                   | nm     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm. |
-| ALKAINE EARTH OXIDE               | crystallite size in green         | between 20-40                                                       | nm     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm. |
-| BaCO3/CeO2 composite              | SEM image                         | null                                                                | null   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             sentence: FIG. 6 is a SEM image of the spray dried and calcined BaCO3/CeO2 composite material. |
-| BaCO3                             | thermal stress reduction          | reduced                                                             |        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         According to one or more embodiments of the invention, Ba sintering and Ba composite compound formation is reduced under the conditions of thermal stress in an exhaust gas of a lean burn engine. |
-| NOX STORAGE MATERIAL              | demonstrated NOx storage capacity | improved                                                            |        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   The NOx storage material according to embodiments of the present invention demonstrates improved NOx storage capacity after thermal aging when used in a catalytic trap. |
-| BACO3/Ceo2 PARTICLES              | particle size                     | 3-30                                                                | micron |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            The coating on the honeycomb catalyst comprises about 3-30 micron BaCO3/CeO2 particles and about 1-20 micron alumina particles. |
-| ALUMINA PARTICLES                 | particle size                     | 1-20                                                                | micron |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            The coating on the honeycomb catalyst comprises about 3-30 micron BaCO3/CeO2 particles and about 1-20 micron alumina particles. |
-| NOX                               | NOx storage mass(g)               | NOx *{dot over (V)}/V ideal *M S*1/(3.6*106)                        | g      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      NOx storage mass in g is calculated via equation (2): |
-| NOX                               | NOx concentration                 | NOx                                                                 | ppm    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     For the time period of the 10 lean/rich cycles the NOx efficiency (U) is calculated from the NOx inlet and NOx outlet concentrations via equation (1): |
-| REFRACTORY OXIDE                  | surface area                      | between 5 and 350                                                   | m2/g   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             The method of claim 13, wherein the refractory oxide has a surface area of between about 5 and about 350 m2/g. |
-| CUBIC BORON NITRIDE               | average grain size                | 0.5 to 5                                                            | µm     | An average grain size of the cubic boron nitride of the present invention is not particularly limited, but if the average grain size of the cubic boron nitride is less than 0.5 µm, an oxygen amount adsorbed on the surface of the cubic boron nitride is increased to inhibit the sintering reaction, whereby sinterability tends to be lowered, while if the average grain size becomes large exceeding 5 µm, the binder phase tends to be agglomerated, so that the thickness of the binder phase which is brittle as compared to the cubic boron nitride becomes large and fracture resistance tends to be lowered. Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm. Among these, the average grain size of the cubic boron nitride is further preferably 1 to 3 µm. |
-| CUBIC BORON NITRIDE SINTERED BODY | inevitable impurities             | 5% by mass or less                                                  |        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             The total amount of the inevitable impurities is generally 5% by mass or less based on the total mass of the cubic boron nitride sintered body |
-| CUBIC BORON NITRIDE SINTERED BODY | tungsten element                  | 5% by mass or less                                                  |        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Therefore, the amount of the tungsten element contained in the cubic boron nitride sintered body of the present invention is preferably 5% by mass or less based on the total mass of the cubic boron nitride sintered body since cutting properties are improved, and among these, the amount of the tungsten element is further preferably 3% by mass or less. |
-| CUBIC BORON NITRIDE               | average grain size                | 0.5 to 5                                                            | µm     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm. |
-| CNGA120408                        | insert shape                      | None                                                                |        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Insert shape: CNGA120408, |
-| DCLNR2525M12                      | holder                            | None                                                                | None   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Holder: DCLNR2525M12, |
-| None                              | Cutting speed                     | 300                                                                 | m/min  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Cutting speed: 300 m/min, |
-| CUBIC BORON NITRIDE               | average grain size                | 0.5 to 5                                                            | µm     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm. |
-| LITHIUM SULFIDE POWDER            | particle size                     | between 250 and 1,500                                               | µm     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          The invention relates to a highly reactive, high-purity, free-flowing and dust-free lithium sulfide powder having an average particle size between 250 and 1,500 μm and BET surface areas between 1 and 100 m2/g. |
-| LITHIUM SULFIDE POWDER            | surface area                      | between 1 and 100                                                   | m2/g   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          The invention relates to a highly reactive, high-purity, free-flowing and dust-free lithium sulfide powder having an average particle size between 250 and 1,500 μm and BET surface areas between 1 and 100 m2/g. |
-| LITHIUM HYDROXIDE                 | residual water content            | less than 5                                                         | wt. %  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Surprisingly, however, the morphology of the produced anhydrous lithium hydroxide (residual water content of less than 5 wt. %) differs significantly depending on the selected drying conditions. |
-| LITHIUM HYDROXIDE                 | BET surface area                  | smaller for low drying temperatures than for temperatures above 200 | °C. %  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   This property correlates with the BET surface area of the porous lithium hydroxide particles, which is smaller for low drying temperatures than for temperatures above 200° C. (Examples 1, 2, 5 and 6). |
-| LI6PS5BR                          | composition                       | slithium sulfide                                                    | %      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      To study reactivity of the produced lithium sulfide powders, a process for producing the sulfidic solid electrolyte of the composition Li6PS5Br was found in the literature [Solid State Ionics, 2014, 262, 183-187]. |
-|                                   | reaction temperature of step 2    | between 200 and 400                                                 | °C.    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   The process according to claim 2, characterized in that the reaction temperature of step 2 is between 20° C. and 450° C. |
-|                                   | reaction temperature of step 2    | between 20 and 450                                                  | °C.    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  The process according to claim 2, characterized in that the reaction temperature of step 2 is between 200° C. and 400° C. |
-
----
+<table>
+  <tr >
+    <th>Product</th>
+    <th>Property</th>
+    <th>Value</th>
+    <th>Unit</th>
+    <th>Sentence</th>
+  </tr>
+  <tr style="color:green">
+    <td >ceria particles</td>
+    <td >crystallite size</td>
+    <td>between 10 and 20</td>
+    <td>nm</td>
+    <td>In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.</td>
+  </tr>
+  <tr style="color:green">
+    <td >ALKAINE EARTH MATERIAL</td>
+    <td>crystallite size</td>
+    <td>between 10 and 20</td>
+    <td>nm</td>
+    <td>In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.</td>
+  </tr>
+  <tr style="color:green">
+    <td >ALKAINE EARTH OXIDE</td>
+    <td >crystallite size</td>
+    <td>between 20-40</td>
+    <td>nm</td>
+    <td>In one embodiment, the nitrogen oxide storage material comprises alkaline earth material supported on ceria particles having a crystallite size of between about 10 and 20 nm and the alkaline earth oxide having a crystallite size of between about 20-40 nm.</td>
+  </tr>
+  <tr style="color:red">
+    <td>BaCO3/CeO2 composite</td>
+    <td>SEM image</td>
+    <td>null</td>
+    <td>null</td>
+    <td>sentence: FIG. 6 is a SEM image of the spray dried and calcined BaCO3/CeO2 composite material.</td>
+  </tr>
+  <tr style="color:red">
+    <td>BaCO3</td>
+    <td>thermal stress reduction</td>
+    <td>reduced</td>
+    <td></td>
+    <td>According to one or more embodiments of the invention, Ba sintering and Ba composite compound formation is reduced under the conditions of thermal stress in an exhaust gas of a lean burn engine.</td>
+  </tr>
+  <tr style="color:red">
+    <td>NOX STORAGE MATERIAL</td>
+    <td>demonstrated NOx storage capacity</td>
+    <td>improved</td>
+    <td></td>
+    <td>The NOx storage material according to embodiments of the present invention demonstrates improved NOx storage capacity after thermal aging when used in a catalytic trap.</td>
+  </tr>
+  <tr style="color:green">
+    <td>BACO3/Ceo2 PARTICLES</td>
+    <td>particle size</td>
+    <td>3-30</td>
+    <td>micron</td>
+    <td>The coating on the honeycomb catalyst comprises about 3-30 micron BaCO3/CeO2 particles and about 1-20 micron alumina particles.</td>
+  </tr>
+  <tr style="color:green">
+    <td>ALUMINA PARTICLES</td>
+    <td>particle size</td>
+    <td>1-20</td>
+    <td>micron</td>
+    <td>The coating on the honeycomb catalyst comprises about 3-30 micron BaCO3/CeO2 particles and about 1-20 micron alumina particles.</td>
+  </tr>
+  <tr style="color:green">
+    <td>NOX</td>
+    <td>NOx storage mass(g)</td>
+    <td>NOx *{dot over (V)}/V ideal *M S*1/(3.6*10^6)</td>
+    <td>g</td>
+    <td>NOx storage mass in g is calculated via equation (2):</td>
+  </tr>
+  <tr style="color:green">
+    <td>NOX</td>
+    <td>NOx concentration</td>
+    <td>NOx</td>
+    <td>ppm</td>
+    <td>For the time period of the 10 lean/rich cycles the NOx efficiency (U) is calculated from the NOx inlet and NOx outlet concentrations via equation (1):</td>
+  </tr>
+  <tr style="color:green">
+    <td>REFRACTORY OXIDE</td>
+    <td>surface area</td>
+    <td>between 5 and 350</td>
+    <td>m2/g</td>
+    <td>The method of claim 13, wherein the refractory oxide has a surface area of between about 5 and about 350 m2/g.</td>
+  </tr>
+  <tr style="color:green">
+    <td>CUBIC BORON NITRIDE</td>
+    <td>average grain size</td>
+    <td>0.5 to 5</td>
+    <td>µm</td>
+    <td>An average grain size of the cubic boron nitride of the present invention is not particularly limited, but if the average grain size of the cubic boron nitride is less than 0.5 µm, an oxygen amount adsorbed on the surface of the cubic boron nitride is increased to inhibit the sintering reaction, whereby sinterability tends to be lowered, while if the average grain size becomes large exceeding 5 µm, the binder phase tends to be agglomerated, so that the thickness of the binder phase which is brittle as compared to the cubic boron nitride becomes large and fracture resistance tends to be lowered. Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm. Among these, the average grain size of the cubic boron nitride is further preferably 1 to 3 µm.</td>
+  </tr>
+  <tr style="color:red">
+    <td>CUBIC BORON NITRIDE SINTERED BODY</td>
+    <td>inevitable impurities</td>
+    <td>5% by mass or less</td>
+    <td></td>
+    <td>The total amount of the inevitable impurities is generally 5% by mass or less based on the total mass of the cubic boron nitride sintered body</td>
+  </tr>
+  <tr style="color:red">
+    <td>CUBIC BORON NITRIDE SINTERED BODY</td>
+    <td>tungsten element</td>
+    <td>5% by mass or less</td>
+    <td></td>
+    <td>Therefore, the amount of the tungsten element contained in the cubic boron nitride sintered body of the present invention is preferably 5% by mass or less based on the total mass of the cubic boron nitride sintered body since cutting properties are improved, and among these, the amount of the tungsten element is further preferably 3% by mass or less.</td>
+  </tr>
+  <tr style="color:green">
+    <td>CUBIC BORON NITRIDE</td>
+    <td>average grain size</td>
+    <td>0.5 to 5</td>
+    <td>µm</td>
+    <td>Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm.</td>
+  </tr>
+  <tr style="color:red">
+    <td>CNGA120408</td>
+    <td>insert shape</td>
+    <td>None</td>
+    <td></td>
+    <td>Insert shape: CNGA120408</td>
+  </tr>
+  <tr style="color:red">
+    <td>DCLNR2525M12</td>
+    <td>holder</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Holder: DCLNR2525M12</td>
+  </tr>
+  <tr style="color:red">
+    <td>None</td>
+    <td>Cutting speed</td>
+    <td>300</td>
+    <td>m/min</td>
+    <td>Cutting speed: 300 m/min</td>
+  </tr>
+  <tr style="color:green">
+    <td>CUBIC BORON NITRIDE</td>
+    <td>average grain size</td>
+    <td>0.5 to 5</td>
+    <td>µm</td>
+    <td>Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm.</td>
+  </tr>
+  <tr style="color:green">
+    <td>LITHIUM SULFIDE POWDER</td>
+    <td>particle size</td>
+    <td>between 250 and 1,500</td>
+    <td>µm</td>
+    <td>The invention relates to a highly reactive, high-purity, free-flowing and dust-free lithium sulfide powder having an average particle size between 250 and 1,500 μm and BET surface areas between 1 and 100 m2/g.</td>
+  </tr>
+  <tr style="color:green">
+    <td>LITHIUM SULFIDE POWDER</td>
+    <td>surface area</td>
+    <td>between 1 and 100</td>
+    <td>m2/g</td>
+    <td>The invention relates to a highly reactive, high-purity, free-flowing and dust-free lithium sulfide powder having an average particle size between 250 and 1,500 μm and BET surface areas between 1 and 100 m2/g.</td>
+  </tr>
+  <tr style="color:green">
+    <td>LITHIUM HYDROXIDE</td>
+    <td>residual water content</td>
+    <td>less than 5</td>
+    <td>wt. %</td>
+    <td>Surprisingly, however, the morphology of the produced anhydrous lithium hydroxide (residual water content of less than 5 wt. %) differs significantly depending on the selected drying conditions.</td>
+  </tr>
+  <tr style="color:green">
+    <td>LITHIUM HYDROXIDE</td>
+    <td>BET surface area</td>
+    <td>smaller for low drying temperatures than for temperatures above 200</td>
+    <td>°C. %</td>
+    <td>This property correlates with the BET surface area of the porous lithium hydroxide particles, which is smaller for low drying temperatures than for temperatures above 200° C. (Examples 1, 2, 5 and 6).</td>
+  </tr>
+  <tr style="color:green">
+    <td>LI6PS5BR</td>
+    <td>composition</td>
+    <td>slithium sulfide</td>
+    <td>%</td>
+    <td>To study reactivity of the produced lithium sulfide powders, a process for producing the sulfidic solid electrolyte of the composition Li6PS5Br was found in the literature [Solid State Ionics, 2014, 262, 183-187].</td>
+  </tr>
+  <tr style="color:red">
+    <td></td>
+    <td>reaction temperature of step 2</td>
+    <td>between 200 and 400</td>
+    <td>°C.</td>
+    <td>The process according to claim 2, characterized in that the reaction temperature of step 2 is between 20° C. and 450° C.</td>
+  </tr>
+  <tr style="color:red">
+    <td></td>
+    <td>reaction temperature of step 2</td>
+    <td>between 20 and 450</td>
+    <td>°C.</td>
+    <td>The process according to claim 2, characterized in that the reaction temperature of step 2 is between 200° C. and 400° C.</td>
+  </tr>
+</table>
 
 ## Troubleshooting and FAQs
 
