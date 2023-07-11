@@ -297,6 +297,23 @@ The patent analysis system follows the following flow:
     <td>m2/g</td>
     <td>The method of claim 13, wherein the refractory oxide has a surface area of between about 5 and about 350 m2/g.</td>
   </tr>
+
+  <tr style="color:green">
+    <td>CUBIC BORON NITRIDE</td>
+    <td>volume</td>
+    <td>85 to 95</td>
+    <td>%</td>
+    <td>The cubic boron nitride sintered body of the present invention is constituted by 85 to 95% by volume of cubic boron nitride based on the total volume of the cubic boron nitride sintered body, and 5 to 15% by volume of a binder phase and inevitable impurities based on the total mass of the cubic boron nitride sintered body, and is a cubic boron nitride sintered body in which the sum thereof is 100% by volume.</td>
+  </tr>
+
+  <tr style="color:green">
+    <td>CUBIC BORON NITRIDE</td>
+    <td>volume</td>
+    <td>85 to 95</td>
+    <td>%</td>
+    <td>Among these, it is preferred that the cubic boron nitride is 89 to 95% by volume, and the remainder is the binder phase and inevitable impurities.</td>
+  </tr>
+
   <tr style="color:green">
     <td>CUBIC BORON NITRIDE</td>
     <td>average grain size</td>
@@ -307,15 +324,15 @@ The patent analysis system follows the following flow:
   <tr style="color:red">
     <td>CUBIC BORON NITRIDE SINTERED BODY</td>
     <td>inevitable impurities</td>
-    <td>5% by mass or less</td>
-    <td></td>
+    <td>5% </td>
+    <td>by mass</td>
     <td>The total amount of the inevitable impurities is generally 5% by mass or less based on the total mass of the cubic boron nitride sintered body</td>
   </tr>
   <tr style="color:red">
     <td>CUBIC BORON NITRIDE SINTERED BODY</td>
     <td>tungsten element</td>
-    <td>5% by mass or less</td>
-    <td></td>
+    <td>5 </td>
+    <td>% by mass</td>
     <td>Therefore, the amount of the tungsten element contained in the cubic boron nitride sintered body of the present invention is preferably 5% by mass or less based on the total mass of the cubic boron nitride sintered body since cutting properties are improved, and among these, the amount of the tungsten element is further preferably 3% by mass or less.</td>
   </tr>
   <tr style="color:green">
@@ -324,6 +341,20 @@ The patent analysis system follows the following flow:
     <td>0.5 to 5</td>
     <td>µm</td>
     <td>Therefore, the average grain size of the cubic boron nitride of the present invention is preferably 0.5 to 5 µm.</td>
+  </tr>
+   <tr style="color:green">
+    <td>CUBIC BORON NITRIDE</td>
+    <td>average grain size</td>
+    <td>2</td>
+    <td>µm</td>
+    <td>Cubic boron nitride (hereinafter referred to as cBN.) powder having an average grain size of 2 µm, Cr powder having an average grain size of 4.9 µm, Cr2N powder having an average grain size of 3.0 µm, Cr3C2 powder having an average grain size of 2.7 µm, VC powder having an average grain size of 2.7 µm, Mo2C powder having an average grain size of 2.5 µm, TiN powder having an average grain size of 1.8 µm, WC powder having an average grain size of 2.2 µm, Co powder having an average grain size of 0.9 µm, and scaly aluminum (Al) powder having an average grain size of 20µm were prepared, and formulated to a formulation composition shown in Table 1.</td>
+  </tr>
+  <tr style="color:red">
+    <td>Sample No.</td>
+    <td>Formulated composition (% by volume)</td>
+    <td>90cBN-4Cr2N-4Co-2Al</td>
+    <td>None</td>
+    <td>[Table 1]   Sample No. Formulated composition (% by volume)    Present products 1 90cBN-4Cr2N-4Co-2Al   2 90cBN-4Cr3C2-4Co-2Al   3 90cBN-4VC-4Co-2Al   4 90cBN-4Mo2C-4Co-2Al   Comparative products 5 90cBN-8TiN-2Al   6 90cBN-4Cr2N-4WC-2Al   7 90cBN-8Cr2N-2Al   8 90cBN-4Cr-4Co-2Al</td>
   </tr>
   <tr style="color:red">
     <td>CNGA120408</td>
