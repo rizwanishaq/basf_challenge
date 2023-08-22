@@ -452,6 +452,7 @@ For further information or inquiries, please contact [Rizwan Ishaq](mailto:rizwa
 - [Matthew Shaxted](https://github.com/mattshax/ipagent) (Parser)
 - [OpenAI](https://openai.com/) (provided helpful advise and chatgpt4 access)
 - [Data-Set](https://github.com/liy140/multidomain-measextract-corpus)(data set and model for further improvement)
+- [Paper](https://aclanthology.org/2023.bionlp-1.1.pdf) Paper to follow for further investigation
 
 ```
 

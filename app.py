@@ -32,14 +32,13 @@ def extract_json_info(json_data):
 
 async def main(patent_url):  
     loader = WebBaseLoader(patent_url)
-    # loader = WebBaseLoader("https://patents.google.com/patent/EP2778146A1/en")
     
     docs = loader.load()
 
     llm = AzureOpenAI(
+        temperature=0.0,
         deployment_name="gpt-35-turbo",
         model_name="gpt-35-turbo",
-        # temperature=0.0
     )
 
     # #Splitting the documents into chunks
