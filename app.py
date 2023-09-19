@@ -10,10 +10,19 @@ from argparse import ArgumentParser
 
 load_dotenv()
 
+# Define function annotations and docstrings
 
 
+def extract_json_info(json_data: list) -> None:
+    """
+    Extracts information from JSON data and prints it.
 
-def extract_json_info(json_data):
+    Args:
+        json_data (list): List of JSON records.
+
+    Returns:
+        None
+    """
     for record in json_data:
         measurement_list = record.get('data', {}).get('measurementdetails', [])
         for measurement in measurement_list:
@@ -22,17 +31,23 @@ def extract_json_info(json_data):
             value = measurement.get('value', '')
             unit = measurement.get('unit', '')
             sentence = measurement.get('sentence', '')
-            
-            
 
-            print(f'Product: {name}\nProperty: {property}\nValue: {value}\nunit: {unit}\nsentence: {sentence}\n')
-
+            print(
+                f'Product: {name}\nProperty: {property}\nValue: {value}\nunit: {unit}\nsentence: {sentence}\n')
 
 
+async def main(patent_url: str) -> None:
+    """
+    Main function to extract information from a patent URL.
 
-async def main(patent_url):  
+    Args:
+        patent_url (str): URL of the patent to be analyzed.
+
+    Returns:
+        None
+    """
     loader = WebBaseLoader(patent_url)
-    
+
     docs = loader.load()
 
     llm = AzureOpenAI(
@@ -41,11 +56,10 @@ async def main(patent_url):
         model_name="gpt-35-turbo",
     )
 
-    # #Splitting the documents into chunks
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 2000,
-        chunk_overlap  = 200,
-        length_function = len,
+        chunk_size=2000,
+        chunk_overlap=200,
+        length_function=len,
     )
 
     docs_chunks = text_splitter.split_documents(docs)
@@ -59,15 +73,15 @@ async def main(patent_url):
         validator=validator,
         input_formatter="triple_quotes",
     )
-    
-    document_extraction_results =  await extract_from_documents(
+
+    document_extraction_results = await extract_from_documents(
         chain,
-        docs_chunks, 
-        max_concurrency=10, 
-        use_uid=False, 
+        docs_chunks,
+        max_concurrency=10,
+        use_uid=False,
         return_exceptions=True
     )
-    
+
     extract_json_info(document_extraction_results)
 
 
@@ -75,6 +89,6 @@ if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument(
         "--patent_url", default='https://patents.google.com/patent/US8022010B2/en', help="patent url which we want to analysis")
-    
+
     args = parser.parse_args()
     asyncio.run(main(args.patent_url))
